@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="src/css/base_styles.css">
+	<link rel="stylesheet" type="text/css" href="src/css/font_styles.css">
+	<link rel="stylesheet" type="text/css" href="src/css/styles.css">
+	<script type="text/javascript" src="src/js/jquery-3.6.0.min.js"></script>
+	<title>SEMANTIC</title>
+</head>
+<body>
+	<header class="centered grid">
+		<div class="column">
+			<h1>Shikra.</h1>
+		</div>
+		<div class="fluid center aligned column">
+			<label for="m_search">
+				<input id="m_search" type="text" placeholder="Search" class="search icon" />
+				<img src="src/img/i_search.svg" />
+			</label>
+		</div>
+		<div class="column">
+			<ul>
+				<button href="#" title="search title" class="icon">
+					<img src="src/img/i_search.svg" />
+				</button>
+				<button href="#" title="heart title" class="icon">
+					<img src="src/img/i_heart.svg" />
+				</button>
+				<button href="#" title="lock title" class="icon">
+					<img src="src/img/i_lock.svg" />
+				</button>
+			</ul>
+		</div>
+	</header>
+	<aside class="vertical centered grid">
+		<div class="column">
+			<img src="src/img/i_menu.svg" class="centered" />
+		</div>
+		<div class="fluid column">
+			<ul>
+				<a href="#" title="search button title" class="button active">
+					<div class="icon">
+						<img src="src/img/i_home.svg" class="centered" />
+					</div>
+					<div class="label">Dashboard</div>
+				</a>
+				<a href="#" title="search button title" class="button">
+					<div class="icon">
+						<img src="src/img/i_folder.svg" class="centered" />
+					</div>
+					<div class="label">Upcoming</div>
+				</a>
+				<a href="#" title="search button title" class="button">
+					<div class="icon">
+						<img src="src/img/i_compass.svg" class="centered" />
+					</div>
+					<div class="label">Explore</div>
+				</a>
+				<a href="#" title="search button title" class="button">
+					<div class="icon">
+						<img src="src/img/i_user.svg" class="centered" />
+					</div>
+					<div class="label">Profile</div>
+				</a>
+				<a href="#" title="search button title" class="button">
+					<div class="icon">
+						<img src="src/img/i_cog.svg" class="centered" />
+					</div>
+					<div class="label">Settings</div>
+				</a>
+			</ul>
+		</div>
+		<div class="column">
+			<a href="#" title="search button title" class="button">
+				<div class="icon">
+					<img src="src/img/i_power.svg" class="centered" />
+				</div>
+				<div class="label">Logout</div>
+			</a>
+		</div>
+	</aside>
+	<main>
+		<section>
+			<div class="header">
+				<img src="src/img/i_compass.svg" />
+				<h2>Explore</h2>
+				<div class="nav">
+					<img src="src/img/i_chevron_left.svg" class="link" />
+					<img src="src/img/i_chevron_right.svg" class="link" />
+				</div>
+			</div>
+			<div class="content">
+				<div class="four column grid">
+					<div class="column">
+						<div class="card">
+							<div class="image">
+								<img src="src/img/b_thailand.png" />
+								<div class="label">
+									<img src="src/img/i_white_banner.svg" class="centered" />
+								</div>
+							</div>
+							<h2>Phi Phi Islands</h2>
+							<div class="description">
+								<img src="src/img/i_marker.svg" />
+								<span class="meta">Thailand</span>
+								<span class="right floated price">$1,480</span>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<div class="image">
+								<img src="src/img/b_maldives.png" />
+								<div class="label">
+									<img src="src/img/i_white_banner.svg" class="centered" />
+								</div>
+							</div>
+							<h2>Kudahuvadhoo Island</h2>
+							<div class="description">
+								<img src="src/img/i_marker.svg" />
+								<span class="meta">Maldives</span>
+								<span class="right floated price">$1,480</span>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<div class="image">
+								<img src="src/img/b_greece.png" />
+								<div class="label">
+									<img src="src/img/i_white_banner.svg" class="centered" />
+								</div>
+							</div>
+							<h2>Greecevillage</h2>
+							<div class="description">
+								<img src="src/img/i_marker.svg" />
+								<span class="meta">Greece</span>
+								<span class="right floated price">$1,480</span>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<div class="image">
+								<img src="src/img/b_maldives.png" />
+								<div class="label">
+									<img src="src/img/i_white_banner.svg" class="centered" />
+								</div>
+							</div>
+							<h2>Kudahuvadhoo Island</h2>
+							<div class="description">
+								<img src="src/img/i_marker.svg" />
+								<span class="meta">Maldives</span>
+								<span class="right floated price">$1,480</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="grid">
+			<div class="five wide column">
+				<section>
+					<div class="header">
+						<img src="src/img/i_user_outline.svg" />
+						<h2>Invite Friends</h2>
+						<button class="more">
+							<img src="src/img/i_dots.svg" class="centered" />
+						</button>
+					</div>
+					<div class="content">
+						<div class="items">
+							<div class="alice-blue dismissed friend">
+								<div class="image">
+									<img src="src/img/a_nate.png" />
+								</div>
+								<div class="header">Nate</div>
+								<div class="label">
+									<img src="src/img/i_times.svg" />
+								</div>
+							</div>
+							<div class="blond dismissed friend">
+								<div class="image">
+									<img src="src/img/a_jim.png" />
+								</div>
+								<div class="header">Jim</div>
+								<div class="label">
+									<img src="src/img/i_times.svg" />
+								</div>
+							</div>
+							<div class="bisque friend">
+								<div class="image">
+									<img src="src/img/a_angela.png" />
+								</div>
+								<div class="header">Angela</div>
+								<div class="label">
+									<img src="src/img/i_check.svg" />
+								</div>
+							</div>
+							<div class="lavender friend">
+								<div class="image">
+									<img src="src/img/a_bhaaji.png" />
+								</div>
+								<div class="header">Bhaaji</div>
+								<div class="label">
+									<img src="src/img/i_plus.svg" />
+								</div>
+							</div>
+							<div class="misty-rose friend">
+								<div class="image">
+									<img src="src/img/a_billo.png" />
+								</div>
+								<div class="header">Billo</div>
+								<div class="label">
+									<img src="src/img/i_plus.svg" />
+								</div>
+							</div>
+							<div class="green-cyan friend">
+								<div class="image">
+									<img src="src/img/a_alex.png" />
+								</div>
+								<div class="header">Alex</div>
+								<div class="label">
+									<img src="src/img/i_plus.svg" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="eight wide column">
+				<section>
+					<div class="header">
+						<img src="src/img/i_fire.svg" />
+						<h2>Members</h2>
+						<button class="more">
+							<img src="src/img/i_dots.svg" class="centered" />
+						</button>
+					</div>
+					<div class="content">
+						<div class="chart">
+							<div class="legend">
+								<div class="category">
+									<div class="grey bar"></div>
+									Guests
+								</div>
+								<div class="category">
+									<div class="orange bar"></div>
+									Registered
+								</div>
+							</div>
+							<div class="content">
+								<div class="axis-x">
+									<div>Mon</div>
+									<div>Tue</div>
+									<div>Wed</div>
+									<div>Thu</div>
+									<div>Fri</div>
+									<div>Sat</div>
+									<div>Sun</div>
+								</div>
+								<div class="axis-y">
+									<div><div>40</div></div>
+									<div><div>30</div></div>
+									<div><div>20</div></div>
+									<div><div>10</div></div>
+								</div>
+								<div class="grid">
+									<div>
+										<div class="bar">
+											<div class="grey" style="height: 87%"></div>
+											<div class="orange" style="height: 44%"></div>
+										</div>
+									</div>
+									<div>
+										<div class="bar">
+											<div class="grey" style="height: 97%"></div>
+											<div class="orange" style="height: 24%"></div>
+										</div>
+									</div>
+									<div>
+										<div class="bar">
+											<div class="grey" style="height: 56%"></div>
+											<div class="orange" style="height: 12%"></div>
+										</div>
+									</div>
+									<div>
+										<div class="bar">
+											<div class="grey" style="height: 76%"></div>
+											<div class="orange" style="height: 59%"></div>
+										</div>
+									</div>
+									<div>
+										<div class="bar">
+											<div class="grey" style="height: 87%"></div>
+											<div class="orange" style="height: 44%"></div>
+										</div>
+									</div>
+									<div>
+										<div class="bar">
+											<div class="grey" style="height: 69%"></div>
+											<div class="orange" style="height: 32%"></div>
+										</div>
+									</div>
+									<div>
+										<div class="bar">
+											<div class="grey" style="height: 44%"></div>
+											<div class="orange" style="height: 15%"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		setInterval(function() {
+			$('.chart .grid > div > div').each(function() {
+				let height = Math.ceil(Math.random() * 90) + 10;
+				$(this).children().each(function(key) {
+					height = key ? Math.ceil(Math.random() * height) : height;
+					$(this).css('height', height + '%');
+				});
+			});
+		}, 1500);
+	});
+</script>
+
+</html>

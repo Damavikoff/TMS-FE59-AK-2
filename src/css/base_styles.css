@@ -1,0 +1,60 @@
+* {
+	line-height: 1.15;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Gilroy', sans-serif;
+	color: rgb(51, 51, 51);
+}
+
+div, button {
+	position: relative;
+}
+
+a {
+	color: inherit;
+    text-decoration: none;
+}
+
+h1, h2 {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 1.625em;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+[class*="center aligned"] {
+	text-align: center;
+	justify-content: center;
+}
+
+[class*="right floated"] {
+	float: right;
+}
+
+input {
+	padding: 1rem;
+	font-size: 0.9375em;
+}
+
+label {
+	position: relative;
+}
+
+button:hover {
+	cursor: pointer;
+}
